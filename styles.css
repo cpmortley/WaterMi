@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", Arial, Helvetica;
+}
+
+li, button, form, a {
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color:#212529;
+  padding: 5px 10%;
+  position: fixed;
+  width: 100%;
+}
+
+#nav-links {
+  list-style: none;
+  margin-right:auto;
+}
+
+#nav-links li {
+  display: inline-block;
+  color: white;
+  padding: 0px 9px;
+}
+
+.button {
+  border: 1px solid rgb(0, 110, 82);
+  padding: 7px 10px 7px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 8px 4px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  border-radius: 4px;
+  justify-content: flex-end;
+}
+
+.outlined-button {
+  background-color: #212529;
+  color: rgb(0, 110, 82);
+}
+.outlined-button:hover {
+  background-color: rgb(0, 110, 82);
+  color: white;
+}
+
+.filled-button {
+  background-color: rgb(0, 110, 82);
+  color: white;
+}
+
+.filled-button:hover {
+  background-color: #212529;
+  color: white;
+ }
+
+input[type=text] {
+  width: 200px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 7px 7px 7px 7px;  
+  margin: 8px 4px;
+  justify-content: flex-end;
+}
+  
+input[type=text]:focus {
+  border: 2px solid rgb(0, 110, 82);
+}
