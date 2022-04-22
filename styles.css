@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 * {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -18,7 +17,6 @@ li, a {
 
 nav {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   background-color:#212529;
   padding: 3px 15%;
@@ -48,7 +46,6 @@ nav {
   transition-duration: 0.2s;
   cursor: pointer;
   border-radius: 4px;
-  justify-content: flex-end;
 }
 
 .outlined-button {
@@ -73,9 +70,9 @@ nav {
 #search-box {
   width: 150px;
   border-radius: 4px;
-  padding: 7px 7px 7px 7px;  
+  padding: 7px;  
   margin: 8px 4px;
-  justify-content: flex-end;
+  border: none;
 }
   
 #search-box:focus {
@@ -83,19 +80,18 @@ nav {
   outline: none;
 }
 
+@media screen and (max-width: 600px) {
+  #search-box {width: 70px;}
+  nav {padding: 3px 0px; margin: auto;}
+}
+
 .wrapper {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-  -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
   position: relative;
   top: 50px;
 }
 
-.wrapper > * {
-  padding: 0px;
+.wrapper {
   flex: 1 100%;
 }
