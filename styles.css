@@ -17,7 +17,7 @@ nav {
   display: flex;
   align-items: center;
   background-color:#212529;
-  padding: 3px 15%;
+  padding: 0px 15%;
   position: fixed;
   width: 100%;
   z-index: 99;
