@@ -1,173 +1,59 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
-<title>WaterMi Welcome Page</title>
-<link rel="icon" type="image/x-icon" href="./res/img/logo250px.jpg">
-<meta charset= "utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Summary of flowers provided by WaterMi">
-<meta name="keywords" content="plants, flowers, horticulture, venus-flytrap, sunflower, begonia, Helianthus, Dionaea muscipula">
-<meta name="author" content="Calvin Mortley">
-<style>
-* {
-  box-sizing: border-box;
-  font-family: arial;
-}
-
-body {
-  margin: 0;
-}
-
-.topnav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  background-color: #212529;
-  width: 100%;
-}
-
-.topnav a {
-  float: left;
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.topnav a:hover {
-  background-color: white;
-  color: #212529;
-}
-
-input[type=text] {
-  width: 200px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 12px;
-  background-color: white;
-  background-image: url('searchicon.png');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  padding: 7px 7px 7px 7px;  
-  margin: 8px 4px;
-}
-
-input[type=text]:hover {
-  border: 2px solid rgb(0, 110, 82);
-}
-.searchForm {
-  float: right;
-}
-
-.button1 {
-  background-color: #212529;
-  border: 2px solid rgb(0, 110, 82);
-  color: rgb(0, 110, 82);
-  padding: 7px 10px 7px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 8px 4px;
-  transition-duration: 0.2s;
-  cursor: pointer;
-  border-radius: 4px;
-  float: right;
- }
-
-.button1:hover {
-  background-color: rgb(0, 110, 82);
-  color: white;
-}
-
-.button2 {
-  background-color: rgb(0, 110, 82);
-  border: 2px solid rgb(0, 110, 82);
-  color: white;
-  padding: 7px 10px 7px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 8px 4px;
-  transition-duration: 0.2s;
-  cursor: pointer;
-  border-radius: 4px;
-  float: right;
-}
-
-.button2:hover {
-  background-color: #212529;
-  color: white;
- }
- 
- .navPadding {
-  border:#212529; 
-  background-color:#212529; 
-  width: 15%; height:30px; 
-  float: left; 
-  display: inline-block;
- }
-</style>
+  <title>WaterMi Welcome Page</title>
+  <link rel="icon" type="image/x-icon" href="./res/img/logo250px.jpg">
+  <meta charset= "utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Summary of flowers provided by WaterMi">
+  <meta name="keywords" content="plants, flowers, horticulture, venus-flytrap, sunflower, begonia, Helianthus, Dionaea muscipula">
+  <meta name="author" content="Calvin Mortley">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<div class="topnav">
-  <div class="navPadding"></div>
-  <a href="./index.htm">Home</a>
-  <a href="./sites/about-us.htm">Blog</a>
-  <a href="./sites/venus-flytrap-details.htm">Location</a>
-  <a href="./sites/begonia-details.htm">Shop</a>
-  <div class="navPadding" style="float: right;"></div>
-  <button class="button2">Sign-up</button>
-  <button class="button1">Login</button>
-  <form class="searchForm">
-    <input type="text" name="search" placeholder="Search...">
-  </form>
-</div>
-<h1>WaterMi</h1>
-<h2>We Make Your Home Alive</h2>
+  <nav>
+    <ul id="nav-links">
+      <li><a href="./index.htm">Home</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="./sites/venus-flytrap-details.htm">Location</a></li>
+      <li><a href="./sites/begonia-details.htm">Shop</a></li>
+    </ul>
+    <input type="search" id="search-box" name="search" placeholder="Search...">
+    <a href="#" class="button outlined-button">Login</a>
+    <a href="#" class="button filled-button">Sign-up</a>
+  </nav>
+
+  <div class="wrapper">
+    <h1>WaterMi</h1>
+
+    <h2>We Make Your Home Alive</h2>
   
-<div id="divRight">
-Maintenance Difficulty:  Hard
-</div> 
-<div id="divLeft">
-<a href="./sites/venus-flytrap-details.htm" target="_self">
-  <img src="./res/img/venus-flytrap.jpg" alt="Venus-Flytrap Flower" class="imgDetails">
-</a>
-</div>
-<div id="divMiddle">
-<b>Venus-Flytrap</b><br>
-Dionaea Miscipula
-</div>
+    <p><b>Venus-Flytrap</b><br>Dionaea Miscipula</p>
+    <p>Maintenance Difficulty:  Hard</p>
+    <p>
+      <a href="./sites/venus-flytrap-details.htm" target="_self">
+        <img src="./res/img/venus-flytrap.jpg" alt="Venus-Flytrap Flower" class="imgDetails">
+      </a>
+    </p>
 
-<div id="divRight">
-Maintenance Difficulty:  Easy
-</div> 
-<div id="divLeft">
-<a href="./sites/sunflower-details.htm" target="_self">
-  <img src="./res/img/sunflower.jpg" alt="Sunflower" class="imgDetails">
-</a>
-</div>
-<div id="divMiddle">
-<b>Sunflower</b><br>
-Helianthus
-</div>
+    <p><b>Sunflower</b><br>Helianthus</p>
+    <p>Maintenance Difficulty:  Easy</p> 
+    <p>
+      <a href="./sites/sunflower-details.htm" target="_self">
+        <img src="./res/img/sunflower.jpg" alt="Sunflower" class="imgDetails">
+      </a>
+    <p>
 
-<div id="divRight">
-Maintenance Difficulty:  Medium
-</div> 
-<div id="divLeft">
-<a href="./sites/begonia-details.htm" target="_self">
-  <img src="./res/img/begonia.jpg" alt="Begonia flower" class="imgDetails">
-</a>
-</div>
-<div id="divMiddle">
-<b>Begonia</b><br>
-Begonia
-</div>
+    <p><b>Begonia</b><br>Begonia</p>
+    <p>Maintenance Difficulty:  Medium</p> 
+    <p>
+      <a href="./sites/begonia-details.htm" target="_self">
+        <img src="./res/img/begonia.jpg" alt="Begonia flower" class="imgDetails">
+      </a>
+    </p>
 
 <h2>About WaterMi</h2>
 
@@ -204,6 +90,6 @@ Begonia
 </p>
 </nav>
 </footer>      
-  
+</div>
 </body>
 </html>
