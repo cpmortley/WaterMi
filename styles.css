@@ -35,7 +35,6 @@ nav {
 }
 
 .button {
-  border: 1px solid #13795b;
   padding: 8px;
   text-align: center;
   text-decoration: none;
@@ -46,35 +45,39 @@ nav {
   border-radius: 0.25rem;
 }
 
-.outlined-beige-button {
+.outlined-secondary-button {
   background-color: rgb(255, 218, 106, 0);
   color: #ffda6a;
   border: 1px solid #ffda6a;
 }
 
-.outlined-beige-button:hover {
+.outlined-secondary-button:hover {
   background-color: #ffda6a;
   color: white;
   border: 1px solid #ffda6a;
 }
 
-.outlined-green-button {
+.outlined-primary-button {
   background-color: rgb(33, 37, 41, 0);
   color: #0f6149;
+  border: 1px solid #0f6149;
 }
-.outlined-green-button:hover {
+.outlined-primary-button:hover {
   background-color: #0f6149;
   color: white;
+  border: 1px solid #0f6149;
 }
 
-.filled-button {
+.filled-primary-button {
   background-color: #10674d;
   color: white;
+  border: 1px solid #10674d;
 }
 
-.filled-button:hover {
-  background-color: rgb(33, 37, 41);
-  color: white;
+.filled-primary-button:hover {
+  background-color: rgb(33, 37, 41, 0);
+  color: #0f6149;
+  border: 1px solid #0f6149;
  }
 
 #search-box {
