@@ -168,10 +168,63 @@ h2 {
   text-align: center;
 }
 
-#gallery-text {
+.scientific-name {
   position: absolute;
-  bottom: 8px;
-  right: 131px;
-  
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
+}
+
+.common-name {
+  position: absolute;
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  background-color: white;
+  padding: 3px;
+  border: 1px solid white;
+  border-radius: 3px;
+  width: 50%;
+  text-align: center;
+}
+
+.easy-difficulty {
+  position: absolute;
+  top:9%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgb(39, 39, 30);
+  padding: 3px;
+  border: 1px solid rgb(39, 39, 30);
+  border-radius: 3px;
+  text-align: center;
+}
+
+.medium-difficulty {
+  position: absolute;
+  top: 9%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  background-color: yellow;
+  padding: 3px;
+  border: 1px solid yellow;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.hard-difficulty {
+  position: absolute;
+  top: 9%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: red;
+  padding: 3px;
+  border: 1px solid red;
+  border-radius: 3px;
+  text-align: center;
 }
