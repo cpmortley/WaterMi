@@ -17,7 +17,7 @@ nav {
   display: flex;
   align-items: center;
   background-color:rgb(33, 37, 41);
-  padding: 0px 15%;
+  padding: 0px 10%;
   position: fixed;
   width: 100%;
   z-index: 99;
@@ -134,5 +134,83 @@ nav {
 }
 
 #center-button {
+  text-align: center;
+}
+
+#gallery-heading {
+  padding: 40px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 500;
+}
+
+#gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  margin: 0 9%;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.gallery-column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  position: relative;
+}
+
+.scientific-name {
+  font-size: 1.2vw;
+  position: absolute;
+  top: 92.3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#scientific-name-color-1 {
+  color: white;
+}
+
+#scientific-name-color-2 {
+  color: black;
+}
+
+.common-name {
+  top: 84%;
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+  width: 50%;
+}
+
+.easy-difficulty {
+  color: white;
+  background-color: rgb(39, 39, 30);
+  border: 1px solid rgb(39, 39, 30);
+  top: 8.3%;
+}
+
+.medium-difficulty {
+  color: black;
+  background-color: yellow;
+  border: 1px solid yellow;
+  top: 8.3%;
+}
+
+.hard-difficulty {
+  color: white;
+  background-color: red;
+  border: 1px solid red;
+  top: 8.3%;
+}
+
+.gallery-box {
+  font-size: 1.2vw;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.5%;
+  border-radius: 3px;
   text-align: center;
 }
